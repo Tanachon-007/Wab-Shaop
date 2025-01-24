@@ -1,0 +1,135 @@
+/* --- การตั้งค่าทั่วไปสำหรับเว็บ --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  /* แถบค้นหา */
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .search-bar input {
+    width: 50%;
+    max-width: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-bar button {
+    padding: 10px;
+    margin-left: 5px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+  }
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  h1, h2, h3 {
+    margin: 0;
+    color: #333;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .header h1 {
+    font-size: 2.5rem;
+  }
+  
+  /* --- ส่วนแสดงรูปภาพ --- */
+  .main-image {
+    margin-bottom: 20px;
+  }
+  .main-image img {
+    width: 100%;
+    height: 400px; /* ความสูงของรูปภาพแรก */
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* แบ่ง 2 คอลัมน์ */
+    gap: 20px;
+  }
+  .product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+  }
+  .product-card img {
+    width: 50%;
+    height: 400px; /* ความสูงของรูปภาพที่สองและสาม */
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .product-card h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2rem;
+  }
+  .product-card p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* --- ปุ่มเพิ่มเติม --- */
+  .product-card .button-group {
+    margin-top: 10px;
+  }
+  .button-group button {
+    background-color: #6d5737dc;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 5px;
+    font-size: 0.9rem;
+  }
+  .button-group button:hover {
+    background-color: #ffffff;
+  }
+  
